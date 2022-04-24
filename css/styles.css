@@ -1,0 +1,89 @@
+body, wrapper {
+   min-height:100vh;
+}
+.flex-fill {
+   flex:1 1 auto;
+}
+
+body {
+    font-family: BrownStd-Regular, sans-serif;
+    color: rgba(0,0,0,.55);
+}
+
+.fontbsm{
+	font-family: BigCaslonMedium;
+}
+.text-primary{
+	color:#6a6a6a !important;
+}
+.BrownStd-Light {
+    font-family: BrownStd-Light";
+}
+.BrownStd-Regular {
+    font-family: BrownStd-Regular;
+}
+.BrownStd-Bold {
+    font-family: BrownStd-Bold;
+}
+
+
+/* BigCaslonMedium */
+@font-face {
+  font-family: 'BigCaslonMedium';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/BigCaslonMedium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'BrownStd-Light';
+  font-style: light;
+  font-weight: 400;
+  src: url(../font/BrownStd-Light.otf) format('otf');
+}
+@font-face {
+  font-family: 'BrownStd-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/BrownStd-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'BrownStd-Bold';
+  font-style: bold;
+  font-weight: 400;
+  src: url(../font/BrownStd-Bold.otf) format('otf');
+}
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  color: white;
+  cursor: pointer;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 4.25rem !important;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-grey{
+	background-color:#f1f0ec;
+}
